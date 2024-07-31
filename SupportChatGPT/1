@@ -1,4 +1,0 @@
-ChileTrabajos>
-cp ./Engine/* ./SupportChatGPT &&
-cp ./Models/* ./SupportChatGPT &&
-cp Program.cs ./SupportChatGPT
