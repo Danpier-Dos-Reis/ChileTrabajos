@@ -5,6 +5,11 @@ from bs4 import BeautifulSoup
 from ..Models.JobItem import JobItem
 
 # Configurar el locale a español
+# Si no tienes el locale que deseas, primero instálalo.
+# En Debian/Ubuntu, puedes hacerlo con:
+# sudo locale-gen es_ES.UTF-8
+# sudo update-locale
+# Ver lista disponible => locale -a
 locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')  # Esto puede variar según tu sistema operativo
 
 def list_jobs(srt_html):
